@@ -1,16 +1,16 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
-# ---------------- PAGE SETUP ----------------
-st.set_page_config(
-    page_title="Customer Churn Prediction",
-    page_icon="📊",
-    layout="wide"
+model_path = os.path.join(
+    os.path.dirname(__file__),
+    "outputs",
+    "models",
+    "xgboost.pkl"
 )
 
-# ---------------- LOAD MODEL ----------------
-model = joblib.load("outputs/models/xgboost.pkl")
+model = joblib.load(model_path)
 
 # ---------------- HEADER ----------------
 st.title("📊 Customer Churn Prediction System")
