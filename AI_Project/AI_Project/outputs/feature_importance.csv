@@ -1,0 +1,16 @@
+,0
+cat__Contract_Month-to-month,0.5435927
+cat__InternetService_Fiber optic,0.12366218
+cat__OnlineSecurity_No,0.036550924
+cat__TechSupport_No,0.03545602
+cat__InternetService_DSL,0.022789612
+cat__StreamingMovies_Yes,0.018698707
+cat__Contract_Two year,0.016950946
+cat__Contract_One year,0.016673688
+num__tenure,0.016384605
+cat__OnlineSecurity_Yes,0.015699264
+cat__PaymentMethod_Electronic check,0.013162475
+cat__MultipleLines_Yes,0.012264429
+cat__PaperlessBilling_No,0.011416268
+cat__MultipleLines_No,0.009726749
+cat__OnlineBackup_Yes,0.008591045
